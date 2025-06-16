@@ -1,0 +1,10 @@
+flask
+flask-socketio
+scapy
+pandas
+numpy
+scikit-learn
+joblib
+requests
+geoip2
+werkzeug

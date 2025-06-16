@@ -1,0 +1,66 @@
+{
+    "timestamp": "2025-06-16T04:32:33.657192",
+    "statistics": {
+        "total_packets": 0,
+        "suspicious_activities": 0,
+        "last_analysis": null,
+        "protocols": {},
+        "top_talkers": {},
+        "threat_level": "منخفض"
+    },
+    "configuration": {
+        "email_alerts": {
+            "enabled": false,
+            "smtp_server": "smtp.gmail.com",
+            "smtp_port": 587,
+            "sender_email": "",
+            "sender_password": "",
+            "recipient_email": ""
+        },
+        "analysis_settings": {
+            "sensitivity": 0.1,
+            "time_window": 60,
+            "min_packets_for_analysis": 100
+        },
+        "threat_detection": {
+            "enable_dns_analysis": true,
+            "enable_port_scan_detection": true,
+            "enable_data_exfiltration_detection": true,
+            "enable_lateral_movement_detection": true,
+            "enable_encrypted_tunnel_detection": true,
+            "enable_behavior_analysis": true
+        },
+        "web_gui": {
+            "enabled": true,
+            "host": "0.0.0.0",
+            "port": 5000
+        },
+        "honeypots": {
+            "enabled": false,
+            "ports": [
+                21,
+                22,
+                80,
+                443,
+                3389
+            ]
+        }
+    },
+    "model_status": {
+        "is_trained": false,
+        "training_samples": 0
+    },
+    "threat_indicators": {
+        "suspicious_domains_count": 0,
+        "malicious_ips_count": 0,
+        "suspicious_ports": [
+            1234,
+            5555,
+            31337,
+            6666,
+            4444,
+            12345
+        ]
+    },
+    "threat_chains": {}
+}

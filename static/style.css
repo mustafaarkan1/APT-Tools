@@ -1,0 +1,110 @@
+:root {
+    --primary: #2c3e50;
+    --secondary: #3498db;
+    --danger: #e74c3c;
+    --warning: #f39c12;
+    --success: #27ae60;
+    --dark: #34495e;
+    --light: #ecf0f1;
+}
+
+body {
+    font-family: 'Tajawal', sans-serif;
+    background-color: #f5f7fa;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    border: none;
+}
+
+.card-header {
+    background-color: var(--primary);
+    color: white;
+    border-radius: 10px 10px 0 0 !important;
+    font-weight: bold;
+}
+
+.stat-card {
+    text-align: center;
+    padding: 15px;
+}
+
+.stat-number {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.alert-card {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.alert-item {
+    border-left: 4px solid;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.alert-high {
+    border-left-color: var(--danger);
+}
+
+.alert-medium {
+    border-left-color: var(--warning);
+}
+
+.alert-low {
+    border-left-color: var(--secondary);
+}
+
+.threat-level {
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.threat-high {
+    background-color: var(--danger);
+}
+
+.threat-medium {
+    background-color: var(--warning);
+}
+
+.threat-low {
+    background-color: var(--success);
+}
+
+.btn-primary {
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+.btn-stop {
+    background-color: var(--danger);
+    border-color: var(--danger);
+}
+
+.status-indicator {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.status-active {
+    background-color: var(--success);
+}
+
+.status-inactive {
+    background-color: var(--danger);
+}
